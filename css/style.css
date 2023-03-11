@@ -5,7 +5,7 @@ body {
 }
 .container-fluid {
   /* background-color: #2e3550; */
-  background-image: url('/bg2.JPG');
+  background-image: url('/bg.png');
   width: 100%;
   height: 100vh;
   background-position: center;
