@@ -4,7 +4,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .container-fluid {
-  background-color: #2e3550;
+  /*background-color: #2e3550;*/
+  background-image: url('/images/Simple\ Shiny\ \(1\).svg');
   width: 100%;
   height: 100vh;
 }
