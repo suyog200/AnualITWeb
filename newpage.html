@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+
+      const name = urlParams.get('name');
+      const contact = urlParams.get('contact');
+      const email = urlParams.get('email');
+      const city = urlParams.get('city');
+      const state = urlParams.get('state');
+      const collegename = urlParams.get('collegeName');
+      const discipline = urlParams.get('discipline');
+      const years = urlParams.get('years');
+      const selectedEventString = urlParams.get('events');
+      const selectedEvents = selectedEventString.split(',');
+      document.write(
+        `Name: ${name}<br>Email: ${email}<br>Contact: ${contact}<br>City:  ${city}<br>State: ${state}<br>College or University Name:  ${collegename}<br>Discipline: ${discipline}<br>Year of study: ${years}<br>Participating events: ${selectedEvents}`
+      );
+    </script>
+  </body>
+</html>

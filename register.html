@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InfoFest Registration</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-image: url('/images/Simple\ Shiny\ \(1\).svg');
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container-sm mt-5 shadow p-3 mb-5 bg-body-tertiary rounded"
+      style="background-color: #e9e8e7"
+    >
+      <form class="p-3" id="myform">
+        <div class="mb-3">
+          <label for="inputename" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+        <div class="mb-3">
+          <label for="inputphone" class="form-label">Contact:</label>
+          <input type="number" class="form-control" id="contact" />
+        </div>
+        <div class="mb-3">
+          <label for="InputEmail" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            To get any updates related to event.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="inputcity" class="form-label">City</label>
+          <input type="text" class="form-control" id="city" />
+        </div>
+        <div class="mb-3">
+          <label for="inputstate" class="form-label">State</label>
+          <input type="text" class="form-control" id="state" />
+        </div>
+        <div class="mb-3">
+          <label for="inputecollegename" class="form-label"
+            >College or University Name</label
+          >
+          <input type="text" class="form-control" id="collegename" />
+        </div>
+        <div class="mb-3">
+          <label for="inputecollegdiscipline" class="form-label"
+            >Discipline</label
+          >
+          <input type="text" class="form-control" id="discipline" />
+        </div>
+        <label for="inputyearofstudy" class="form-label">Year of Study</label>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+            value="1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> 1 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            value="2"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> 2 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            value="3"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> 3 </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            value="4"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> 4 </label>
+        </div>
+
+        <label for="inputevents" class="form-label">Participating events</label>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="Hackthon"
+            id="flexCheckDefault"
+            name="checkbox"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Hackthon
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="Web Development"
+            id="flexCheckChecked"
+            name="checkbox"
+          />
+          <label class="form-check-label" for="flexCheckChecked">
+            Web Development
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="Quiz"
+            id="flexCheckChecked"
+            name="checkbox"
+          />
+          <label class="form-check-label" for="flexCheckChecked"> Quiz </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

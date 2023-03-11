@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container-fluid {
+  background-image: url("/images/Simple\ Shiny\ \(1\).svg");
+  width: 100%;
+  height: 100vh;
+}
