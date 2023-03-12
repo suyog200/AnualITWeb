@@ -4,11 +4,11 @@ body {
   font-family: 'Share Tech Mono', monospace;
 }
 .container-fluid {
-  /* background-color: #2e3550; */
-  background-image: url('/bg.jpg');
+  background-color: #2e3550;
+  /* background-image: url('/public/bg.jpg'); */
   width: 100%;
   height: 100vh;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
