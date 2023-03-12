@@ -11,11 +11,16 @@
       crossorigin="anonymous"
     />
     <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
       body {
-        /* background-color: #2e3550; */
-        background-image: url('/bg.png');
+        background-color: #2e3550;
+        background-image: url('/bg.jpg');
         width: 100%;
-        height: auto;
+        height: 100px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -24,10 +29,10 @@
   </head>
   <body>
     <div
-      class="container-sm mt-5 shadow p-3 mb-5 bg-body-tertiary rounded w-75"
+      class="container-sm shadow bg-body-tertiary rounded overflow-auto vh-100 mt-1 mb-1 w-75"
       style="background-color: #e9e8e7"
     >
-      <form class="p-3" id="myform">
+      <form class="p-1" id="myform">
         <div class="mb-3">
           <label for="inputename" class="form-label">Name</label>
           <input type="text" class="form-control" id="name" />
