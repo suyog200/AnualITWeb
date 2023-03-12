@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
 }
 .container-fluid {
-  background-color: #2e3550;
+  /* background-color: #2e3550; */
+  background-image: url('/bg.jpg');
   width: 100%;
   height: 100vh;
   background-position: center;
